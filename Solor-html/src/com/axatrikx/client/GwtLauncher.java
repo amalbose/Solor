@@ -1,6 +1,6 @@
 package com.axatrikx.client;
 
-import com.axatrikx.SolorGame;
+import com.axatrikx.SolorGame_backUp;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
@@ -14,6 +14,6 @@ public class GwtLauncher extends GwtApplication {
 
 	@Override
 	public ApplicationListener getApplicationListener () {
-		return new SolorGame();
+		return new SolorGame_backUp();
 	}
 }
