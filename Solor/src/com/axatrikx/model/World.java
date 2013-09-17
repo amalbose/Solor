@@ -31,7 +31,7 @@ public class World {
 
 		for (int i = 0; i < 10; i++) {
 			enemies.add(new Enemy(new Vector2(i, 0)));
-			enemies.add(new Enemy(new Vector2(i, 7)));
+			enemies.add(new Enemy(new Vector2(i, 6)));
 			if (i > 2)
 				enemies.add(new Enemy(new Vector2(i, 1)));
 		}

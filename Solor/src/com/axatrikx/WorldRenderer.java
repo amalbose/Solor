@@ -35,7 +35,7 @@ public class WorldRenderer {
 			debugRenderer.setColor(new Color(1, 0, 0, 1));
 			debugRenderer.rect(x1, y1, rect.width, rect.height);
 		}
-		// render Bob
+		// render player
 		Player player = world.getPlayer();
 		Rectangle rect = player.bounds;
 		float x1 = player.position.x + rect.x;
