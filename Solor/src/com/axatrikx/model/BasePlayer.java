@@ -3,7 +3,7 @@ package com.axatrikx.model;
 public class BasePlayer {
 
 	public enum State {
-		IDLE, WALKING, JUMPING, DYING
+		IDLE, MOVING, JUMPING, DYING
 	}
 	
 	public enum Direction {
